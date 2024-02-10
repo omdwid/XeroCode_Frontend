@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap") ();
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient1 {
+  background: linear-gradient(0deg, #f3bc4c, #f3bc4c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient2 {
+  background: linear-gradient(180deg, #3171de 0%, #704af2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient3 {
+  background: linear-gradient(180deg, #3171de 0%, #4ac0f2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient0 {
+  background: linear-gradient(
+    89.9deg,
+    #ffffff 0.09%,
+    #ffffff 32.87%,
+    rgba(255, 255, 255, 0.738308) 54.28%,
+    rgba(255, 255, 255, 0) 81.05%
+  );
+}
+
+.bg-gradient1 {
+  background: linear-gradient(180deg, #62ae6e 0%, #ede14f 100%);
+}
+
+.bg-gradient2 {
+  background: linear-gradient(180deg, #3171de 0%, #4ac0f2 100%);
+}
+
+.transform-x-by-50 {
+  transform: translateX(-50%);
+}
